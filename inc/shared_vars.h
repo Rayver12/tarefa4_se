@@ -8,15 +8,17 @@
 // =============================================================================
 
 // --- Configurações do WiFi ---
-#define WIFI_SSID       "SEU_SSID_AQUI"
-#define WIFI_PASSWORD   "SUA_SENHA_AQUI"
+#define WIFI_SSID       "ED-LINK FIBRA // Joao"
+#define WIFI_PASSWORD   "JOAO2FILHO8"
 
 // --- Configurações do Broker MQTT ---
-#define BROKER_HOST     "127.0.0.1"  // IP do Servidor
-#define BROKER_PORT     "8883"
-#define PSK_IDENTITY    "aluno02"
-#define DEVICE_ID       "bitdoglab-aluno02-xx"  // ID do dispositivo (client ID MQTT)
-#define MQTT_TOPICO_TEMPERATURA "/aluno02/bitdoglab/temperatura"
+#define BROKER_HOST     "192.168.1.107"  // IP do Servidor
+#define BROKER_PORT     "8872"
+#define PSK_IDENTITY    "aluno72"
+#define DEVICE_ID       "bitdoglab01-aluno72"  // ID do dispositivo (client ID MQTT)
+#define MQTT_TOPICO_TEMPERATURA "/aluno72/bitdoglab/temp"
+#define MQTT_TOPICO_BOTAO_A     "/aluno72/bitdoglab/botoes/a"
+#define MQTT_TOPICO_BOTAO_B     "/aluno72/bitdoglab/botoes/b"
 
 // =============================================================================
 // Variáveis Globais Compartilhadas

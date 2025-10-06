@@ -14,7 +14,7 @@
 #include "mbedtls/debug.h"
 
 // --- Variáveis Estáticas do Módulo ---
-static const unsigned char psk[] = { 0xAB, 0xCD, 0x02, 0xEF, 0x12, 0x34 };
+static const unsigned char psk[] = { 0xAB, 0xCD, 0x72, 0xEF, 0x12, 0x34 };
 static mbedtls_ssl_context ssl;
 static mbedtls_ssl_config conf;
 static pico_net_context server_fd;

@@ -42,6 +42,8 @@ add_executable(mqtt_with_psk
     src/shared_vars.c
     src/pico_net.c
     src/temperature.c
+    src/ssd1306.c
+    src/botoes.c
 )
 
 pico_set_program_name(mqtt_with_psk "mqtt_with_psk")
@@ -54,6 +56,7 @@ pico_enable_stdio_usb(mqtt_with_psk 1)
 # Add the standard library to the build
 target_link_libraries(mqtt_with_psk
     hardware_adc
+    hardware_i2c
     pico_stdlib
     pico_cyw43_arch_lwip_poll
     
